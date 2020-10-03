@@ -320,6 +320,11 @@ public class BaseClass {
 		driver.switchTo().frame(id);
 
 	}
+	
+	public void datadriven() {
+		// TODO Auto-generated method stub
+
+	}
 
 	public static void navigateBack(String value) {
 		driver.navigate().to(value);
